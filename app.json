@@ -158,12 +158,29 @@
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
+            "value": "true"
         }
+
     },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      }]
-  }
+
+    "addons": [
+
+        {
+
+            "plan": "heroku-postgresql"
+
+        }
+
+    ],
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku-community/apt"
+
+        }
+
+    ]
+
+}
